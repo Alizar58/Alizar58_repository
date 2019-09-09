@@ -7,7 +7,7 @@ public class Zadanie7 {
        int b=200;
        int r=300;
        double c = Math.sqrt(Math.pow(a,2)+Math.pow(b,2));
-       if (r*2 > c) {
+       if (r*2 >= c) {
           System.out.println( "Отверствие можно полностью закрыть");
        } 
        else {
