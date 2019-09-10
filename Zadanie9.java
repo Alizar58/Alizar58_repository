@@ -1,5 +1,5 @@
-//Изменить пример с суммой чисел таким образом, чтобы рассчитывалась не сумма, а
-//произведение, т.е. факториал числа.
+//Г€Г§Г¬ГҐГ­ГЁГІГј ГЇГ°ГЁГ¬ГҐГ° Г± Г±ГіГ¬Г¬Г®Г© Г·ГЁГ±ГҐГ« ГІГ ГЄГЁГ¬ Г®ГЎГ°Г Г§Г®Г¬, Г·ГІГ®ГЎГ» Г°Г Г±Г±Г·ГЁГІГ»ГўГ Г«Г Г±Гј Г­ГҐ Г±ГіГ¬Г¬Г , Г 
+//ГЇГ°Г®ГЁГ§ГўГҐГ¤ГҐГ­ГЁГҐ, ГІ.ГҐ. ГґГ ГЄГІГ®Г°ГЁГ Г« Г·ГЁГ±Г«Г .
 public class Zadanie9 {
     public static void main(String[] args){
     double averageSum = 0;
@@ -13,7 +13,6 @@ public class Zadanie9 {
          sum = sum + sum*x;
        }
        n ++;
-       System.out.println("сума: " + sum + "  - ит " + n + " выпадковы лік " + x);
        x = (int)(Math.random()*20);
     }
     if(n != 0){
@@ -21,6 +20,6 @@ public class Zadanie9 {
     } else {
        averageSum = 0;
     }
-    System.out.println("среднее:" + averageSum);
+    System.out.println("Г±Г°ГҐГ¤Г­ГҐГҐ:" + averageSum);
     }
 }
