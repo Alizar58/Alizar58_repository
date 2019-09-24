@@ -3,8 +3,7 @@
 // число передаём как параметр. если параметра нет, то берётся случайное от 0 до 200
 public class Zadanie11 {
     public static void main(String[] args){
-    int i = 0;
-    int y = 0, x = 0;
+    int x = 0;
     if (args.length > 0) {
        x = Integer.parseInt(args[0]);
     } else { 
